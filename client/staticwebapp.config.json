@@ -4,8 +4,9 @@
     {
       "route": "/api/*",
       "methods": [
-        "GET"
+        "get"
       ],
+      "rewrite": "123",
       "allowedRoles": [
         "authenticated"
       ]
